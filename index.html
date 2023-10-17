@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend разработка</title>
+    <meta property="og:image" content="main.jpg">
+	<link rel="icon" type="image/png" href="favicon_16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="favicon_32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon_96x96.png" sizes="96x96">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
+</head>
+<body>
+    <header class="header none1">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <a class="logo" href="#!">
+                        <!-- <img src="./img/logo.svg" alt="LoftHouse"> -->
+                        gitaramania.by
+                    </a>
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li><a href="#!">Чему вы научитесь</a></li>
+                                <li><a href="#!">Что в этом курсе?</a></li>
+                                <li><a href="#!">Для кого этот курс</a></li>
+                                <li><a href="#!">Программа курса</a></li>
+                                <!-- <li><a href="#!">Контакты</a></li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__nav-btn">
+                        <button class="nav-icon-btn">
+                            <div class="nav-icon"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="header__title">Frontend разработчик <br>на HTML, CSS и JavaScript</h1>
+            <h2 class="header__subtitle">
+                Веб студия <br>"Быстрый старт"
+                
+                <a href="#benefits">
+                    <img
+                        src="./img/header/mouse.svg"
+                        alt="Scroll next"
+                        class="header__title-icon"
+                    >
+                </a>
+            </h2>
+            
+        </div>
+
+        <div class="header__footer">
+            <div class="text-right">
+                <a href="#section-map" class="info info--map">ул. Ковзана 5(Авиагородок)</a>
+            </div>
+            <a href="tel:+375444739481" class="info info--tel">+375 (44) 473-94-81</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="benefits none1">
+            <h2 class="visually-hidden">Ожидаемые результаты</h2>
+            
+            <div class="container container--sm">
+                <div class="apartments__title">
+                    <h2 class="title-2">Задача курса</h2>
+                </div>
+                <div class="benefits__row">
+
+                    <div class="benefits__item">
+                        <!-- <img src="./img/SVG/qrcode.svg" alt="" class="benefits__item-img"> -->
+                        <a href="" class="benefits__item-img">
+                          <svg class="benefits__qrcode">
+                            <use xlink:href="#qrcode"></use>
+                          </svg>
+                        </a>
+                        <p class="benefits__item-text">Освоение элементов &nbsp; &nbsp;верстке сайтов</p>
+                    </div>
+
+                    <div class="benefits__item">
+                        <!-- <img src="./img/benefits/building.svg" alt="" class="benefits__item-img">
+                         -->
+                         <a href="" class="benefits__item-img">
+                            <svg class="benefits__users">
+                              <use xlink:href="#users"></use>
+                            </svg>
+                          </a>
+                        <p class="benefits__item-text">Определение для себя дальнейшего движения :  &nbsp;в &nbsp;команде, или самостоятельно</p>
+                    </div>
+
+                    <div class="benefits__item">
+                        <!-- <img src="./img/benefits/fountain.svg" alt="" class="benefits__item-img">
+                         -->
+                         <a href="" class="benefits__item-img">
+                            <svg class="benefits__laptop">
+                              <use xlink:href="#laptop"></use>
+                            </svg>
+                          </a>
+                        <p class="benefits__item-text">Осознание профессии : твоя или нет</p>
+                    </div>
+
+                    <div class="benefits__item">
+                        <!-- <img src="./img/benefits/bicycle.svg" alt="" class="benefits__item-img"> -->
+                        <a href="" class="benefits__item-img">
+                            <svg class="benefits__qrcode">
+                              <use xlink:href="#qrcode"></use>
+                            </svg>
+                          </a>
+                        <p class="benefits__item-text">Знакомство с Javascript на базовом уровне;</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="">
+         <div class="container">
+            <div class="apartments__title">
+                <h2 class="title-2">Программа курса</h2>
+            </div>
+            <div class="accordion">
+                <div class="accordion__item">
+                    <div class="accordion__button">Уроки по HTM</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <ul class="accordion__list">
+                            <li class="accordion__item">
+                                <p class="accordion__text">Введение</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Установка браузера и редактора кода</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Обзор функций редактора</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Первые HTML теги</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Как задавать путь к файлу</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Создание списка</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Создание таблиц</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Работа с текстом</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Создание формы</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Универсальные атрибуты</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Цвет RGB и спецсимволы</p>
+                            </li>
+                            <li class="accordion__item">
+                                <p class="accordion__text">Подведение итогов изучения HTML</p>
+                            </li>
+                        </ul>
+                      
+                        
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+    
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__button">Уроки по CSS</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <p class="accordion__text"></p>
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+                        <p class="accordion__text">CSS селекторы</p>
+                        <p class="accordion__text">Работа с изображениями</p>
+                        <p class="accordion__text">Границы</p>
+                        <p class="accordion__text">Размеры элементов</p>
+                        <p class="accordion__text">Работа с шрифтом</p>
+                        <p class="accordion__text">Блочная модель документа</p>
+                        <p class="accordion__text">Псевдоклассы и псевдоэлементы</p>
+                        <p class="accordion__text">Основы CSS Flexbox</p>
+                        <p class="accordion__text">Тест по CSS</p>
+                        <p class="accordion__text">Адаптивная версия сайта, Создание своей сетки</p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__button">Практика</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <p class="accordion__text">верстка Макет 1</p>
+                        <p class="accordion__text">верстка Макет 2</p>
+                        <p class="accordion__text">верстка Макет 3</p>
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__button">Верстка адаптивного сайта с нуля</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <p class="accordion__text">Верстка шапки сайта</p>
+                        <p class="accordion__text">Верстка текстового блога</p>
+                        <p class="accordion__text">Верстка фотографий</p>
+                        <p class="accordion__text">Верстка контактов</p>
+                        <p class="accordion__text">Верстка страницы “Об авторе”</p>
+                        <p class="accordion__text">Верстка страницы “Контакты”</p>
+                        <p class="accordion__text">Адаптация сайта под разные устройства. Часть 1</p>
+                        <p class="accordion__text">Адаптация сайта под разные устройства. Часть 2</p>
+                        <p class="accordion__text">Кроссбраузерная и валидная верстка</p>
+                        <p class="accordion__text">Домент и хостинг. Размещение сайта в интернете</p>
+                        <p class="accordion__text">Что делать дальше? План развития</p>
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+                        
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__button">Трансформация и анимация</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <p class="accordion__text">Простая трансформация </p>
+                        <p class="accordion__text">Точка трансформации</p>
+                        <p class="accordion__text">Объединение трансформации</p>
+                        <p class="accordion__text">Создание перспективы</p>
+                        <p class="accordion__text">3D Трансформация</p>
+                        <p class="accordion__text">Создание 3D карточки</p>
+                        <p class="accordion__text">Создание наклонной навигации</p>
+                        <p class="accordion__text">Работа с translate</p>
+                        <p class="accordion__text">Создание 3D куба</p>
+                        <p class="accordion__text">Создание анимации</p>
+                        <p class="accordion__text">Временные функции</p>
+                       
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__button">Photoshop для верстальщика</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <p class="accordion__text">Настройка Photoshop </p>
+                        <p class="accordion__text">Как вырезать и сохранять картинки?</p>
+                        <p class="accordion__text">Сохранение SVG картинок в Photophop</p>
+                        <p class="accordion__text">Информация о font-family, font-size, line-height, color</p>
+                        <p class="accordion__text">Информация о margin и padding</p>
+                        <p class="accordion__text">Информация об opacity</p>
+                        <p class="accordion__text">Горячие клавиши Photoshop для верстака</p>
+                        <p class="accordion__text">Создание рекламного баннера</p>
+                        
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <div class="accordion__button">Javascript</div>
+                    <div class="accordion__panel accordion__panel--open">
+                        <!-- <h3 class="accordion__title">заголовок</h3> -->
+                        <p class="accordion__text"></p>
+                        <!-- <a href="#" class="accordion__link">ссылка</a> -->
+                    </div>
+                </div>
+            </div>
+         </div>
+        </section>
+        <section class="apartments none1">
+            <div class="container">
+                <div class="apartments__title">
+                    <h2 class="title-2">Фрагменты наших уроков</h2>
+                </div>
+                <div class="apartments__cards">
+
+                    <a href="#!" class="card">
+                        <!-- <img class="card__img" src="./img/cards/01.jpg" alt="Пентхаус “Loft Олимп”"> 
+                        -->
+                        <!-- <iframe class="video__link" width="540" height="320" src="https://www.youtube.com/embed/gwPMYo4DPf4" title="тема медиа запросы" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                        <h3 class="card__title">Изучаем медиа запросы</h3>
+                    </a>
+                    <a href="#!" class="card">
+                        <!-- <img class="card__img" src="./img/cards/02.jpg" alt="Пентхаус “Loft Олимп”"> -->
+                        <!-- <iframe class="video__link" width="540" height="320" src="https://www.youtube.com/embed/l1sIfhouqcg" title="Выполняем тестовое задание по пройденной теме" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                        <h3 class="card__title">тестовое задание по пройденной теме</h3>
+                    </a>
+                    <a href="https://youtu.be/WbkKJVBt8tU?list=PL-C9Gd_H9vKgOqDlfzl8jGgQFitQfQ1zu" class="card" target="_blank">
+                        <img class="card__img" src="./img/cards/скрин веб студия.jpg" alt="Frontend разработка">
+                        <h3 class="card__title">Урок с подгруппой</h3>
+                    </a>
+                    <a href="https://youtu.be/nYU6ISaT0nQ?list=PL-C9Gd_H9vKgOqDlfzl8jGgQFitQfQ1zu" class="card" target="_blank">
+                        <img class="card__img" src="./img/cards/скрин веб студия.jpg" alt="Frontend разработка">
+                        <h3 class="card__title">Карточки для сайта</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="cta none1">
+            <div class="container">
+                <div class="cta__title">
+                    <h2 class="title-2">Цель веб студии "Быстрый старт"?</h2>
+                </div>
+                <div class="cta__wrapper">
+                    <div class="cta__text">
+                        <p>Самая главная и общая цель - через такой подход, создать на небольшом масштабе ( за основу беру Студию экспериментальных проектов, которая находится на гос основе дополнительного образования г. Бобруйска)
+                            такую атмосферу, которая, бы через досуговую деятельность, воспитала профессиональные навыки в учениках, в сферах от искусства , до бизнеса.</p>
+                    </div>
+                    <form action="" class="cta__form form">
+                        <input type="text" class="form__input" placeholder="Ваше имя" autocomplete="off">
+                        <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+                        <!-- <p class="form__privacy form__privacy--bottom">
+                            *Мы никому не передаем ваши данные. <br>И не сохраняем ваш номер в базу.
+                        </p> -->
+
+                        <button type="submit" class="form__btn">Посмотреть район</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="video none1">
+            <h2 class="visually-hidden">Видео про ЖК Loft House</h2>
+            <div class="container">
+
+                <a href="https://www.youtube.com/watch?v=bhJNL9JUsnY" data-youtubeLightbox class="video__link">
+                    <img src="./img/video/play.svg" alt="" class="video__icon">
+                    <img src="./img/video/video-img.jpg" alt="" class="video__img">
+                </a>
+            </div>
+        </section> -->
+        <!-- <section class="section-map none1">
+            <div class="container">
+                <div class="section-map__title">
+                    <h2 class="title-2">Район на карте</h2>
+                </div>
+                <div class="section-map__map">
+                    <div class="map" id="map"></div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section class="feedback none1">
+            <div class="container">
+                <div class="feedback__title">
+                    <h2 class="title-2">Есть вопросы?</h2>
+                </div>
+                <form class="feedback__form form">
+
+                    <p class="form__privacy form__privacy--bottom">
+                        *Мы никому не передаем ваши данные. <br>И не сохраняем ваш номер в базу.
+                    </p>
+
+                    <input type="text" class="form__input" placeholder="Ваше имя" autocomplete="off">
+                    <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+                    <button type="submit" class="form__btn">Посмотреть район</button>
+                </form>
+            </div>
+        </section> -->
+    </main>
+    <footer class="footer none1">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__logo">
+                    <a href="https://gitaramania.by/">
+                        <!-- <img src="./img/logo.svg" alt="LoftHouse"> -->
+                        gitaramania.by
+                    </a>
+                </div>
+                <div class="footer__nav">
+                    <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="https://andreychernetsky.github.io/blockArticle/programm.html" target="_blank">Программирование</a></li>
+                            <li><a href="https://andreychernetsky.github.io/blockArticle/gitar.html" target="_blank">Уроки по гитаре</a></li>
+                            <li><a href="https://andreychernetsky.github.io/blockArticle/game.html" target="_blank">Настолная игра</a></li>
+                            <li><a href="">Видеомонтаж</a></li>
+                            <li><a href="">Миди-технологии</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__nav">
+                     <nav>
+                        <ul class="footer__nav-list">
+                            <li><a href="">Онлайн школа</a></li>
+                            <li><a href="https://youtu.be/b1negnkz3n0?list=PL-C9Gd_H9vKhOfIBqINccMMJm7XSkUlkC" target="_blank">Цифровой рисунок</a></li>
+                            <li><a href="https://youtu.be/NZFHUEuO5mI?list=PL-C9Gd_H9vKhOfIBqINccMMJm7XSkUlkC" target="_blank">Палатки выходного дня</a></li>
+                            <li><a href="#!">Ютьюбная</a></li>
+                            <li><a href="https://youtu.be/OnQlZQz50Y4?list=PL-C9Gd_H9vKhOfIBqINccMMJm7XSkUlkC" target="_blank">Проектная деятельность</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__address">
+                    <ul class="footer__nav-list">
+                        <li></li>
+                        <li>Телефон: <a href="tel:375444739481">+375(44) 473-94-81</a></li>
+                        <li>Веб студия "Быстрый старт"</li>
+                        <li>E-mail: <a class="link-bold" href="mailto:rodomir3119841985@gmail.com">rodomir3119841985@gmail.com</a></li>
+                    </ul>
+                    <ul class="footer__socials">
+                        <li><a href="#!"><img src="./img/socials/youtube.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/vk.svg" alt=""></a></li>
+                        <!-- <li><a href="#!"><img src="./img/socials/facebook.svg" alt=""></a></li>
+                        <li><a href="#!"><img src="./img/socials/instagram.svg" alt=""></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- YouTube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+        <div class="youtubelightbox__centeredchild">
+            <div class="youtubelightbox__videowrapper">
+                <div id="youtubelightboxPlayer"></div>
+            </div>
+        </div>
+    </div>
+      <!-- sprite -->
+      <svg style="display:none;">
+        <symbol id="laptop" viewBox="0 0 32 32">
+            <g>
+                <path d="M28 22v-16c0-1.1-0.9-2-2-2h-20c-1.1 0-2 0.9-2 2v16h-4v6h32v-6h-4zM20 26h-8v-2h8v2zM26 22h-20v-15.996c0.001-0.001 0.002-0.003 0.004-0.004h19.993c0.001 0.001 0.003 0.002 0.004 0.004v15.996z"></path>
+            </g>
+        </symbol>
+      </svg>
+      <svg style="display:none;">
+        <symbol id="qrcode" viewBox="0 0 32 32">
+            <g>
+                <path d="M10 2h-8v8h8v-8zM12 0v0 12h-12v-12h12zM4 4h4v4h-4zM30 2h-8v8h8v-8zM32 0v0 12h-12v-12h12zM24 4h4v4h-4zM10 22h-8v8h8v-8zM12 20v0 12h-12v-12h12zM4 24h4v4h-4zM14 0h2v2h-2zM16 2h2v2h-2zM14 4h2v2h-2zM16 6h2v2h-2zM14 8h2v2h-2zM16 10h2v2h-2zM14 12h2v2h-2zM14 16h2v2h-2zM16 18h2v2h-2zM14 20h2v2h-2zM16 22h2v2h-2zM14 24h2v2h-2zM16 26h2v2h-2zM14 28h2v2h-2zM16 30h2v2h-2zM30 16h2v2h-2zM2 16h2v2h-2zM4 14h2v2h-2zM0 14h2v2h-2zM8 14h2v2h-2zM10 16h2v2h-2zM12 14h2v2h-2zM18 16h2v2h-2zM20 14h2v2h-2zM22 16h2v2h-2zM24 14h2v2h-2zM26 16h2v2h-2zM28 14h2v2h-2zM30 20h2v2h-2zM18 20h2v2h-2zM20 18h2v2h-2zM22 20h2v2h-2zM26 20h2v2h-2zM28 18h2v2h-2zM30 24h2v2h-2zM18 24h2v2h-2zM20 22h2v2h-2zM24 22h2v2h-2zM26 24h2v2h-2zM28 22h2v2h-2zM30 28h2v2h-2zM20 26h2v2h-2zM22 28h2v2h-2zM24 26h2v2h-2zM26 28h2v2h-2zM20 30h2v2h-2zM24 30h2v2h-2zM28 30h2v2h-2z"></path>
+            </g>
+        </symbol>
+      </svg>
+      <svg style="display:none;">
+        <symbol id="users" viewBox="0 0 36 32">
+            <g>
+                <path d="M24 24.082v-1.649c2.203-1.241 4-4.337 4-7.432 0-4.971 0-9-6-9s-6 4.029-6 9c0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h28c0-4.030-5.216-7.364-12-7.918z"></path>
+                <path d="M10.225 24.854c1.728-1.13 3.877-1.989 6.243-2.513-0.47-0.556-0.897-1.176-1.265-1.844-0.95-1.726-1.453-3.627-1.453-5.497 0-2.689 0-5.228 0.956-7.305 0.928-2.016 2.598-3.265 4.976-3.734-0.529-2.39-1.936-3.961-5.682-3.961-6 0-6 4.029-6 9 0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h8.719c0.454-0.403 0.956-0.787 1.506-1.146z"></path>
+            </g>
+        </symbol>
+      </svg>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4f537583-9ef9-4998-a98b-9a6ee160a9d3&lang=ru_RU" type="text/javascript"></script>
+
+    <script src="./libs/phoneMask/mask.js"></script>
+    <script src="./libs/phoneMask/mask_list.js"></script>
+
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
